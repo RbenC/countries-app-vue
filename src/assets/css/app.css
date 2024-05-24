@@ -80,16 +80,23 @@ img {
     color: var(--primary);    
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .btn {
     background-color: #8cbc00;
     display: block;
     color: #FFF;
     text-transform: uppercase;
     font-weight: 900;
+    font-size: 1rem;
     padding: 1rem;
     transition: background-color .3s ease-out;
     text-align: center;
-    border: none;
+    border: none;    
 
 }
 .btn:hover{
